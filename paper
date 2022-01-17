@@ -1,0 +1,6 @@
+#! /bin/bash
+
+pastepy="/root/test/paper.py $@"
+#output=$(eval "$pastepy")
+#echo "$output"
+python3 $pastepy
